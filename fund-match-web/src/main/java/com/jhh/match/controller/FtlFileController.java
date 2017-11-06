@@ -25,7 +25,6 @@ import java.util.Map;
  **/
 @Controller
 public class FtlFileController {
-    private final Logger logger = LoggerFactory.getLogger(this.getClass());
     @Resource
     private FundPlatformService fundPlatformService;
 
